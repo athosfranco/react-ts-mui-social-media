@@ -17,7 +17,12 @@ import PersonIcon from "@mui/icons-material/Person";
 import NightlightIcon from "@mui/icons-material/Nightlight";
 import React from "react";
 
-const Sidebar = () => {
+interface SidebarProps {
+  mode: string;
+  setMode: Function;
+}
+
+const Sidebar = ({ mode, setMode }: SidebarProps) => {
   return (
     <Box
       flex={1}
@@ -89,7 +94,9 @@ const Sidebar = () => {
               <ListItemIcon>
                 <NightlightIcon />
               </ListItemIcon>
-              <Switch />
+              <Switch
+                onClick={() => setMode(mode === "light" ? "dark" : "light")}
+              />
             </ListItemButton>
           </ListItem>
         </List>
