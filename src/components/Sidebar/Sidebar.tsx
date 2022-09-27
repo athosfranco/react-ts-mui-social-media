@@ -16,11 +16,7 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import PersonIcon from "@mui/icons-material/Person";
 import NightlightIcon from "@mui/icons-material/Nightlight";
 import React from "react";
-
-interface SidebarProps {
-  mode: string;
-  setMode: Function;
-}
+import { SidebarProps } from "../../types";
 
 const Sidebar = ({ mode, setMode }: SidebarProps) => {
   return (
