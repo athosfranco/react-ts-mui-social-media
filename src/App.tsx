@@ -1,11 +1,9 @@
-import { Typography } from "@mui/material";
-import Button from "@mui/material/Button";
+import MainPage from "./pages/Main/MainPage";
 
 const App = () => {
   return (
     <div className="App">
-      <Typography variant="h1">Hello, World!</Typography>
-      <Button variant="contained">Hello!</Button>
+      <MainPage />
     </div>
   );
 };

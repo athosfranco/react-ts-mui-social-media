@@ -1,7 +1,12 @@
+import { Box } from "@mui/material";
 import React from "react";
 
 const Feed = () => {
-  return <div>Feed</div>;
+  return (
+    <Box bgcolor="red" mx={1} flex={4} p={2}>
+      Feed
+    </Box>
+  );
 };
 
 export default Feed;
