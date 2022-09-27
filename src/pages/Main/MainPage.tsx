@@ -9,7 +9,12 @@ const MainPage = () => {
   return (
     <Box>
       <Navbar />
-      <Stack direction="row" justifyContent="space-between">
+      <Stack
+        direction="row"
+        justifyContent="space-between"
+        mt={9}
+        sx={{ mx: { xs: "0", sm: "5vw" } }}
+      >
         <Sidebar />
         <Feed />
         <Rightbar />

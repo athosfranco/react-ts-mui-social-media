@@ -16,10 +16,10 @@ const StyledToolbar = styled(Toolbar)`
 `;
 
 const Search = styled.div`
-  padding: 0 10px;
+  padding: 4px;
   background-color: white;
-  border-radius: 8px;
-  width: 20%;
+  border-radius: 30px;
+  width: 30%;
   display: flex;
   align-items: center;
 
